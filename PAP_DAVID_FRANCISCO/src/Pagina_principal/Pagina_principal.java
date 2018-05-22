@@ -77,7 +77,7 @@ public class Pagina_principal extends javax.swing.JFrame {
         jPanel1.add(jPanel2);
         jPanel2.setBounds(0, 0, 1000, 100);
 
-        jPanel4.setBackground(new java.awt.Color(100, 149, 237));
+        jPanel4.setBackground(new java.awt.Color(102, 204, 255));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagens/admin.png"))); // NOI18N
 
