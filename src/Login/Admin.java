@@ -47,7 +47,6 @@ public class Admin extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1000, 600));
 
         jPanel1.setBackground(new java.awt.Color(102, 204, 255));
@@ -77,9 +76,9 @@ public class Admin extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setBackground(new java.awt.Color(0, 153, 255));
-        jButton4.setFont(new java.awt.Font("Arial Rounded MT Bold", 2, 14)); // NOI18N
-        jButton4.setForeground(new java.awt.Color(255, 255, 255));
+        jButton4.setBackground(new java.awt.Color(255, 255, 255));
+        jButton4.setFont(new java.awt.Font("Arial Rounded MT Bold", 3, 14)); // NOI18N
+        jButton4.setForeground(new java.awt.Color(0, 153, 255));
         jButton4.setText("Login");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -186,12 +185,12 @@ public class Admin extends javax.swing.JFrame {
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
 
-       String nome = caixatexto.getText();
-       String senha = new String(caixatexto2.getPassword());
+        String nome = caixatexto.getText();
+        String senha = new String(caixatexto2.getPassword());
         if(nome.equals("ADMIN_USER") && senha.equals("admin18"))
         {
-       Admin_opcoes tela = new Admin_opcoes();
-           tela.setVisible (true);
+            Admin_opcoes tela = new Admin_opcoes();
+            tela.setVisible (true);
             JOptionPane.showMessageDialog(null,"Seja bem-vindos:"+nome);
             caixatexto.setText(null);
             caixatexto2.setText(null);
@@ -201,22 +200,20 @@ public class Admin extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null,"Tem que preencher todos os campos!");
             caixatexto.setText(null);
             caixatexto2.setText(null);
-     
-            
+
         }
-        
+
         else{
             Toolkit.getDefaultToolkit().beep();
             JOptionPane.showMessageDialog(null,"Login ou Senha Inválidos!",
-                    "Aviso de Erro",JOptionPane.ERROR_MESSAGE);
-           caixatexto.setText(null);
-           caixatexto2.setText(null);
-         
-      
+                "Aviso de Erro",JOptionPane.ERROR_MESSAGE);
+            caixatexto.setText(null);
+            caixatexto2.setText(null);
+
+            // TODO add your handling code here:
+        }
+
         // TODO add your handling code here:
-    }                                  
-    
- // TODO add your handling code here:
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
