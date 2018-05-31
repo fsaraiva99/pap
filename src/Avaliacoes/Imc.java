@@ -5,6 +5,9 @@
  */
 package Avaliacoes;
 
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
+
 /**
  *
  * @author David Nunes
@@ -227,31 +230,31 @@ public class Imc extends javax.swing.JFrame {
        imc=  peso/ (altura*altura);
        
         System.out.println(imc);
-       
+       NumberFormat nf = new DecimalFormat("#.00");
        if(imc < 18.5)
        {
-          rotulo.setText(""+Math.ceil(imc)+" Abaixo do peso ideal");     
+          rotulo.setText(""+nf.format(imc)+" Abaixo do peso ideal");     
        }
        
        else if(imc >= 18.5 && imc <= 24.9)
        {
-          rotulo.setText(""+Math.ceil(imc)+" Peso normal");          
+          rotulo.setText(""+nf.format(imc)+" Peso normal");          
        }
        else if(imc >= 25 && imc <= 29.9)
        {
-          rotulo.setText(""+Math.ceil(imc)+" Excesso de Peso");         
+          rotulo.setText(""+nf.format(imc)+" Excesso de Peso");         
        }
        else if(imc >= 30 && imc <= 34.9)
        {
-          rotulo.setText(""+Math.ceil(imc)+" Obesidade classe 1");         
+          rotulo.setText(""+nf.format(imc)+" Obesidade classe 1");         
        }
        else if(imc >= 35 && imc <= 39.9)
        {
-          rotulo.setText(""+Math.ceil(imc)+" Obesidade classe 2");          
+          rotulo.setText(""+nf.format(imc)+" Obesidade classe 2");          
        }
        else 
        {
-          rotulo.setText(""+Math.ceil(imc)+" Obesidade classe 3");        
+          rotulo.setText(""+nf.format(imc)+" Obesidade classe 3");        
        }        
 // TODO add your handling code here:
     }//GEN-LAST:event_botaoActionPerformed
