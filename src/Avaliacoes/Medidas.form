@@ -25,10 +25,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="0" pref="35" max="32767" attributes="0"/>
-              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-          </Group>
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -123,7 +120,7 @@
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="18" max="32767" attributes="0"/>
+                  <EmptySpace pref="53" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jComboBox1" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -268,10 +265,10 @@
                                               </Group>
                                               <EmptySpace max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
-                                                  <Component id="jTextField1" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                  <Component id="jTextField20" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                  <Component id="jTextField21" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                  <Component id="jTextField22" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                  <Component id="caixa" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                  <Component id="caixa1" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                  <Component id="caixa2" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                  <Component id="caixa3" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
                                               </Group>
                                               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
@@ -296,22 +293,22 @@
                                               <EmptySpace pref="41" max="32767" attributes="0"/>
                                               <Group type="103" groupAlignment="0" attributes="0">
                                                   <Group type="102" alignment="0" attributes="0">
-                                                      <Component id="jTextField23" min="-2" pref="88" max="-2" attributes="0"/>
+                                                      <Component id="caixa4" min="-2" pref="88" max="-2" attributes="0"/>
                                                       <EmptySpace type="separate" max="-2" attributes="0"/>
                                                       <Component id="jLabel37" min="-2" pref="22" max="-2" attributes="0"/>
                                                   </Group>
                                                   <Group type="102" alignment="0" attributes="0">
                                                       <Group type="103" groupAlignment="1" attributes="0">
-                                                          <Component id="jTextField34" min="-2" pref="87" max="-2" attributes="0"/>
+                                                          <Component id="caixa13" min="-2" pref="87" max="-2" attributes="0"/>
                                                           <Group type="103" groupAlignment="0" attributes="0">
-                                                              <Component id="jTextField24" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                              <Component id="jTextField25" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                              <Component id="jTextField26" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                              <Component id="jTextField27" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                              <Component id="jTextField28" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                              <Component id="jTextField29" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                              <Component id="jTextField30" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
-                                                              <Component id="jTextField31" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                              <Component id="caixa5" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                              <Component id="caixa6" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                              <Component id="caixa7" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                              <Component id="caixa8" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                              <Component id="caixa9" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                              <Component id="caixa10" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                              <Component id="caixa11" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                                              <Component id="caixa12" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
                                                           </Group>
                                                       </Group>
                                                       <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
@@ -350,9 +347,9 @@
                                           </Group>
                                       </Group>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="jTextField2" pref="88" max="32767" attributes="0"/>
-                                          <Component id="jTextField33" max="32767" attributes="0"/>
-                                          <Component id="jTextField32" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="caixa14" pref="88" max="32767" attributes="0"/>
+                                          <Component id="caixa15" max="32767" attributes="0"/>
+                                          <Component id="caixa16" alignment="0" max="32767" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="35" pref="35" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
@@ -363,7 +360,7 @@
                                       <EmptySpace pref="32" max="32767" attributes="0"/>
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
-                                      <Component id="admin" min="-2" pref="160" max="-2" attributes="0"/>
+                                      <Component id="gravar" min="-2" pref="160" max="-2" attributes="0"/>
                                       <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -382,18 +379,18 @@
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="jLabel56" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="caixa14" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jTextField33" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="caixa15" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel59" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel60" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="3" attributes="0">
-                                          <Component id="jTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="caixa" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel55" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -407,7 +404,7 @@
                                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                               <Group type="103" groupAlignment="3" attributes="0">
                                                   <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
-                                                  <Component id="jTextField20" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="caixa1" alignment="3" min="-2" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -418,19 +415,19 @@
                                   <Group type="102" alignment="0" attributes="0">
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jTextField21" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="caixa2" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="3" attributes="0">
                                           <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jTextField22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="caixa3" alignment="3" min="-2" max="-2" attributes="0"/>
                                           <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                       <Component id="jLabel58" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jTextField32" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="caixa16" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="jLabel57" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
@@ -439,68 +436,68 @@
                                   <Component id="jLabel36" alignment="0" min="-2" max="-2" attributes="0"/>
                                   <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                       <Component id="jLabel37" alignment="3" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jTextField23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="caixa4" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel38" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField24" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa5" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel39" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel40" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField25" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa6" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel41" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel42" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField26" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa7" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel43" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel44" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField27" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa8" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel45" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel46" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField28" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa9" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel47" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel48" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField29" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa10" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel49" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel50" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField30" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa11" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel51" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel54" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField31" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa12" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel53" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jLabel52" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField34" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="caixa13" alignment="3" min="-2" max="-2" attributes="0"/>
                                   <Component id="jLabel61" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="admin" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Component id="gravar" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                           <Component id="jLabel1" alignment="0" min="-2" pref="460" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="0" pref="168" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="167" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -513,7 +510,7 @@
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField1">
+            <Component class="javax.swing.JTextField" name="caixa">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel28">
               <Properties>
@@ -548,7 +545,7 @@
                 <Property name="text" type="java.lang.String" value="Ombro"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField20">
+            <Component class="javax.swing.JTextField" name="caixa1">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel31">
               <Properties>
@@ -572,7 +569,7 @@
                 <Property name="text" type="java.lang.String" value="Bra&#xe7;o Direito relaxado"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField21">
+            <Component class="javax.swing.JTextField" name="caixa2">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel33">
               <Properties>
@@ -596,7 +593,7 @@
                 <Property name="text" type="java.lang.String" value="Bra&#xe7;o Esquerdo relaxado"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField22">
+            <Component class="javax.swing.JTextField" name="caixa3">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel35">
               <Properties>
@@ -620,7 +617,7 @@
                 <Property name="text" type="java.lang.String" value="Bra&#xe7;o Direito contra&#xed;do"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField23">
+            <Component class="javax.swing.JTextField" name="caixa4">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel37">
               <Properties>
@@ -644,7 +641,7 @@
                 <Property name="text" type="java.lang.String" value="Bra&#xe7;o Esquerdo contra&#xed;do"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField24">
+            <Component class="javax.swing.JTextField" name="caixa5">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel39">
               <Properties>
@@ -668,7 +665,7 @@
                 <Property name="text" type="java.lang.String" value="Antebra&#xe7;o Direito"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField25">
+            <Component class="javax.swing.JTextField" name="caixa6">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel41">
               <Properties>
@@ -692,7 +689,7 @@
                 <Property name="text" type="java.lang.String" value="Antebra&#xe7;o Esquerdo"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField26">
+            <Component class="javax.swing.JTextField" name="caixa7">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel43">
               <Properties>
@@ -716,7 +713,7 @@
                 <Property name="text" type="java.lang.String" value="T&#xf3;rax relaxado"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField27">
+            <Component class="javax.swing.JTextField" name="caixa8">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel45">
               <Properties>
@@ -740,7 +737,7 @@
                 <Property name="text" type="java.lang.String" value="T&#xf3;rax inspirado"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField28">
+            <Component class="javax.swing.JTextField" name="caixa9">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel47">
               <Properties>
@@ -764,7 +761,7 @@
                 <Property name="text" type="java.lang.String" value="Cintura"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField29">
+            <Component class="javax.swing.JTextField" name="caixa10">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel49">
               <Properties>
@@ -788,7 +785,7 @@
                 <Property name="text" type="java.lang.String" value="Adbome"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField30">
+            <Component class="javax.swing.JTextField" name="caixa11">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel51">
               <Properties>
@@ -812,7 +809,7 @@
                 <Property name="text" type="java.lang.String" value="Rela&#xe7;&#xe3;o cintura X quadril"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField31">
+            <Component class="javax.swing.JTextField" name="caixa12">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel53">
               <Properties>
@@ -847,7 +844,7 @@
                 <Property name="text" type="java.lang.String" value="Biesti&#xf3;ide"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField2">
+            <Component class="javax.swing.JTextField" name="caixa14">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel56">
               <Properties>
@@ -871,7 +868,7 @@
                 <Property name="text" type="java.lang.String" value="cm"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField32">
+            <Component class="javax.swing.JTextField" name="caixa16">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel58">
               <Properties>
@@ -895,7 +892,7 @@
                 <Property name="text" type="java.lang.String" value="cm"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField33">
+            <Component class="javax.swing.JTextField" name="caixa15">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel60">
               <Properties>
@@ -908,7 +905,7 @@
                 <Property name="text" type="java.lang.String" value="Biepico&#xf4;ndilo Umeral"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField34">
+            <Component class="javax.swing.JTextField" name="caixa13">
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel61">
               <Properties>
@@ -921,7 +918,7 @@
                 <Property name="text" type="java.lang.String" value="cm"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="admin">
+            <Component class="javax.swing.JButton" name="gravar">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -944,7 +941,8 @@
                 </Property>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adminActionPerformed"/>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="gravarMouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="gravarActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
